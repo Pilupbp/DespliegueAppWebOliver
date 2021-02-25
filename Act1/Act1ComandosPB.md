@@ -122,8 +122,6 @@ Tipo de protocolo, dirección local y remota y el Estado.
 
 Podríamos utilizar otro comando para ver en que estado está nuestro firewall que nos permitirá establecer determinadas conexiones entrantes y salientes. Aunque mediante comandos no hemos podido realizarlo en el equipo. Podemos ver si lo tenemos activado y su configuración.
 
-![](Imagen%205.png)
-
 
 UFW:
 Comando que nos permite configurar reglas y administrar el firewall. Pero no hemos podido ejecutarlo en el Terminal de MAC.
@@ -145,7 +143,7 @@ Porque con la información que devuelve **obtenemos la dirección IP **a la que
 
 ##### 1.4 ¿Cómo se interpreta la salida?
 
-![](Imagen%206.png)
+![](Imagen%205.png)
 
 
 Nos devuelve la dirección IP .
@@ -163,7 +161,9 @@ Ofrece la misma consulta que HOST pero con más información
 A devolvernos los registros DNS podemos **ver a la IP a la que está asociado el dominio.**
 
 ##### 1.4 ¿Cómo se interpreta la salida?
-![][image-8]
+
+![](Imagen%206.png)
+
 
 
 NSLOOKUP:
@@ -182,7 +182,8 @@ Primero ejecutamos el comando y a continuación las URL que queramos conocer las
 Nos da información sobre un dominio determinado.
 
 ##### 1.4 ¿Cómo se interpreta la salida?
-![][image-9]
+
+![](Imagen%207.png)
  
 
 WHOIS:
@@ -198,7 +199,10 @@ Sirve para para consultar la información sobre un dominio de Internet, **quién
 Porque nos ofrece datos de quién es el dueño del dominio o donde está registrado, DNS, etc…
 
 ##### 1.4 ¿Cómo se interpreta la salida?
-![][image-10]
+
+
+![](Imagen%209.png)
+
 Nos da la información del registrador con contactos administrativo y técnico, en esta ocasión nos devuelve Verisign que opera una gran variedad de infraestructuras de red que incluye dos de los trece servidores de internet.
 
 
@@ -206,7 +210,8 @@ Nos da la información del registrador con contactos administrativo y técnico, 
 
 CURL:
 Lo primero es comprobar que Curl está instalado con el comando *$ curl --version*
-![][image-11]
+
+![](Imagen%2010.png)
 
 ##### 1.1 ¿Qué hace?
 La función de Curl es similar a la de Wget que veremos más adelante. Curl no es un software especializado en descargas, sino que está **diseñado para la comunicación general a través de redes**, por lo que ofrece aún más ventajas.
@@ -229,7 +234,9 @@ Tiene más usos cuando tienes un servidor Proxy para hacer una solicitud GET o P
 El comando nos dice si podemos acceder a la URL o si no podemos conectar al servidor.
 
 ##### 1.4 ¿Cómo se interpreta la salida?
-![][image-12]
+
+
+![](Imagen%2011.png)
  
 WGET:
 
@@ -251,8 +258,10 @@ Antes de eso hemos tenido que instalarlo mediante el comando *$ brew install wge
 Porque nos muestra cómo podemos acceder a servidores a **descargar la información que necesitemos.** Aunque algunos servidores pueden hable bloqueado el acceso a wget.
 
 ##### 1.4 ¿Cómo se interpreta la salida?
-![][image-13]
-![][image-14]
+
+![](Imagen%2012.png)
+
+![](Imagen%2013.png)
 
 
 
