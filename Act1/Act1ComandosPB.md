@@ -1,4 +1,4 @@
-![][image-computacion-nube.png]
+![](computacion-nube.png)
 ### Actividad 1. Tarea Individual. Comandos.
 ### Pilar Bermejo 2 DAW
 [[https://github.com/Pilupbp/despliegueAppWeb][1]
@@ -50,7 +50,7 @@ Porque si no tenemos ningún problema al ejecutarlo y se enviaron los paquetes y
 ##### 1.4	¿Cómo se interpreta la salida?
 
 
-![][image-2]
+![](Imagen%201.png)
 
 El resultado indica que se enviaron ocho paquetes de prueba de 64 bytes desde el host 216.58.211.238 y se devolvieron. TTL son las siglas de tiempo de vida, la latencia, que es el tiempo de conexión.
 
@@ -67,7 +67,9 @@ Determina la ruta para alcanzar un host mediante el envío de paquetes “echo�
 ##### 1.3 ¿Por qué responde a la pregunta?
 Porque podemos ver los diferentes **saltos en los diferentes nodos porque se establece la conexión**, si no se establece y no tuviéramos conexión a internet nos devolvería el mensaje mencionado anteriormente.
 
-##### 1.4 ¿Cómo se interpreta la salida?\*\* ![][image-3]
+##### 1.4 ¿Cómo se interpreta la salida?\*\* 
+
+![](Imagen%202.png)
 
 Lo primero que hace el comando al ser ejecutado es mostrar la dirección **IP real del dominio de la web que hemos elegido.** Luego nos dice todos los nodos y routers por los que pasa el mensaje de prueba que hemos enviado, sus direcciones IP y la** latencia **de cada uno de ellos hasta llegar a su destino.
 
