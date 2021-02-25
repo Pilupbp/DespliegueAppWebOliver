@@ -201,7 +201,7 @@ Porque nos ofrece datos de quién es el dueño del dominio o donde está registr
 ##### 1.4 ¿Cómo se interpreta la salida?
 
 
-![](Imagen%209.png)
+![](Imagen%208.png)
 
 Nos da la información del registrador con contactos administrativo y técnico, en esta ocasión nos devuelve Verisign que opera una gran variedad de infraestructuras de red que incluye dos de los trece servidores de internet.
 
@@ -211,7 +211,7 @@ Nos da la información del registrador con contactos administrativo y técnico, 
 CURL:
 Lo primero es comprobar que Curl está instalado con el comando *$ curl --version*
 
-![](Imagen%2010.png)
+![](Imagen%209.png)
 
 ##### 1.1 ¿Qué hace?
 La función de Curl es similar a la de Wget que veremos más adelante. Curl no es un software especializado en descargas, sino que está **diseñado para la comunicación general a través de redes**, por lo que ofrece aún más ventajas.
@@ -236,7 +236,7 @@ El comando nos dice si podemos acceder a la URL o si no podemos conectar al serv
 ##### 1.4 ¿Cómo se interpreta la salida?
 
 
-![](Imagen%2011.png)
+![](Imagen%2010.png)
  
 WGET:
 
@@ -259,9 +259,9 @@ Porque nos muestra cómo podemos acceder a servidores a **descargar la informaci
 
 ##### 1.4 ¿Cómo se interpreta la salida?
 
-![](Imagen%2012.png)
+![](Imagen%2011.png)
 
-![](Imagen%2013.png)
+![](Imagen%2012.png)
 
 
 
