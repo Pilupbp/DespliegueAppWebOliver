@@ -92,7 +92,9 @@ Si ponemos **ifconfig seguido del nombre de la interface**, solo muestra el esta
 Porque sabemos si nos ha asignado una IP de Red y sabemos si el **puerto está activo y transmitiendo. **
 
 ##### 1.4 ¿Cómo se interpreta la salida?
-![][image-4]
+
+![](Imagen%203.png)
+
 Puedo ver si el puerto está activo, la dirección IP que tiene y la MAC.
 
 ### 2. ¿CÓMO SABEMOS SI NUESTRO SERVIDOR ES ACCESIBLE DESDE INTERNET?
@@ -112,12 +114,15 @@ Nos permite **supervisar las conexiones de red** tanto entrantes como salientes,
 
 ##### 1.3 ¿Por qué responde a la pregunta?** Nos indica qué **puertos están abiertos y si los programas están escuchando\*\* en los puertos permitiéndonos llevar un mejor control sobre estos. Nos ofrece una vía fácil para supervisar y solucionar problemas relacionados con la red y determinar el rendimiento del tráfico de red
 
-##### 1.4 ¿Cómo se interpreta la salida?\*\* ![][image-5]
+##### 1.4 ¿Cómo se interpreta la salida?\*\* 
+
+![](Imagen%204.png)
+
 Tipo de protocolo, dirección local y remota y el Estado.
 
 Podríamos utilizar otro comando para ver en que estado está nuestro firewall que nos permitirá establecer determinadas conexiones entrantes y salientes. Aunque mediante comandos no hemos podido realizarlo en el equipo. Podemos ver si lo tenemos activado y su configuración.
 
-![][image-6]
+![](Imagen%205.png)
 
 
 UFW:
@@ -139,7 +144,10 @@ HOST:
 Porque con la información que devuelve **obtenemos la dirección IP **a la que está asociado ese dominio.
 
 ##### 1.4 ¿Cómo se interpreta la salida?
-![][image-7]
+
+![](Imagen%206.png)
+
+
 Nos devuelve la dirección IP .
 
 DIG:
