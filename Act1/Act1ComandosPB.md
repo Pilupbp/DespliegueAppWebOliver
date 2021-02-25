@@ -272,19 +272,3 @@ Los comandos que me han ido haciendo falta los he ido indicando a lo largo de la
 
 
 
-[1]:	https://github.com/Pilupbp/despliegueAppWeb
-
-[image-1]:	computacion-nube.png width=800
-[image-2]:	Imagen%201.png "1.1 Ping a google.com"
-[image-3]:	Imagen%202.png "1.2 Traceroute a google.com"
-[image-4]:	Imagen%203.png "1.3 Ifconfig"
-[image-5]:	Imagen%204.png "1.4 Comando netstat -a"
-[image-6]:	Imagen%2013.png "Firewall"
-[image-7]:	Imagen%205.png "1.5 Comando Host"
-[image-8]:	Imagen%206.png "1.6 Respuesta consulta dig"
-[image-9]:	Imagen%207.png "1.7 Comando nslookup"
-[image-10]:	Imagen%208.png "1.8 Whois"
-[image-11]:	Imagen%209.png "1.9 Comprobando Curl"
-[image-12]:	Imagen%2010.png "1.10 Datos de ejecución de Curl con -v"
-[image-13]:	Imagen%2011.png "1.11 Comando Wget"
-[image-14]:	Imagen%2012.png "1.12 Archivo descargado."
