@@ -20,9 +20,10 @@ Se considerará a la hora de evaluar la facilidad de uso de dicha guía que se e
 2. Cómo se usa
 3. Por qué responde a la pregunta
 4. Cómo se interpreta la salida
+
 ---- 
 
-## GUÍA DE USO:
+### GUÍA DE USO:
 
 ### 1. ¿CÓMO SABEMOS SI TENEMOS CONEXIÓN A INTERNET?
 
