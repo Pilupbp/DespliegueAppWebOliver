@@ -1,4 +1,5 @@
 ![](computacion-nube.png)
+
 ### Actividad 1. Tarea Individual. Comandos.
 ### Pilar Bermejo 2 DAW
 [[https://github.com/Pilupbp/despliegueAppWeb][1]
