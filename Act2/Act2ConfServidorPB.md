@@ -4,6 +4,8 @@
 ### Pilar Bermejo 2 DAW
 [[https://github.com/Pilupbp/despliegueAppWeb-Act2](https://github.com/Pilupbp/DespliegueAppWeb-Act2)
 ](#)
+
+
 Queremos preparar nuestro servidor Linux para poder desplegar una aplicación web. Para ello tenemos que verificar que están instalados:
 ##### 1.	Java
 ##### 2.	Apache
