@@ -18,7 +18,7 @@ Para la entrega, es necesaria la creación y subida a la plataforma de un peque�
 Nótese que más adelante se pedirá que se realicen tareas con un repositorio GIT que contenga la documentación de esta actividad.
 ____________________________________________________________
 
-### GUÍA DE USO:
+## GUÍA DE USO:
 
 ### 1. VERIFICACIÓN DE INSTALACIÓN
 
