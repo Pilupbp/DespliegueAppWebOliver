@@ -105,3 +105,110 @@ Y una vez que la hemos cargado, la ejecutamos:
 
 A continuación paramos el servicio para que siga mi compañera **LIDIA MARTINEZ** para la **instalación de la BBDD con la creación de la BBDD y el recurso.**
 
+## LIDIA MARTINEZ – PARTE II
+
+*$ sudo apt-get install mysql-server*
+
+![](Imagen%2015.png)  
+
+Inicializamos el motor de base de datos con $ mysqld -initialize
+
+![](Imagen%2016.png)  
+
+Comprobamos que el servicio se está ejecutando.
+
+*$ systemctl status mysql.service*
+
+![](Imagen%2017.png)  
+
+*$ sudo systemctl stop mysql.*
+
+*$ sudo systemctl start mysql.*
+
+![](Imagen%2018.png) 
+
+A continuación, vamos a descargar las librerías necesarias para nuestra conexión de la BBDD. En este caso, vamos a comprobar la version de MySQL para ver cual debemos descargarnos. 
+
+Vemos que nuestra version es la 8.0.23 por lo que vamos a buscar dicho archivo JAR para la conexión y añadirlo en la carpeta lib del tomcat.
+
+
+![](Imagen%2019.png) 
+
+![](Imagen%2020.png) 
+
+![](Imagen%2021.png) 
+
+El siguiente paso, es editar el archivo context.xml del Tomcat (/conf/context.xml) y añadir el datasource para después poder recuperarlo desde java con JNDI.
+
+Añadimos lo siguiente:
+
+
+
+Por otra parte en los archivos context.xml y web.xml:
+
+![](Imagen%2022.png) 
+
+![](Imagen%2023.png) 
+A continuación, vamos a crear nuestra BBDD proyecto en MySQL gracias al WorkBench.
+![](Imagen%2024.png) 
+
+Aquí, podemos ver nuestra base de datos creada. 
+
+Una vez configurado todo lo anterior, solo nos quedaría ir al tomcat para ver nuestra base de datos.
+
+![](Imagen%2025.png)
+
+Una vez clicamos vemos como nos aparecen nuestras tablas y la base de datos está totalmente operativa.
+
+![](Imagen%2026.png)
+
+![](Imagen%2027.png)
+
+## VERÓNICA PARRA – PARTE III
+
+Instalamos el servidor Apache en nuestro equipo con el comando 
+
+ **sudo apt install apache2**
+ 
+ A continuación, entramos como super usuario, ya que tenemos que modificar archivos de configuración y necesitamos tener todos los privilegios.
+ 
+ ![](Imagen%2028.png)
+ 
+ En el terminal, vamos al directorio **/var/www/html**. Dentro de la carpeta html, con el comando mkdir, creamos un directorio al que llamaremos CDN.
+Listamos el contenido para comprobar que se ha creado correctamente:
+
+ ![](Imagen%2029.png)
+ 
+Ahora, vamos directorio en el que se encuentran los tres recursos a desplegar. En mi caso, los recursos los guardé en una carpeta a la que llamé “apache”, dentro de la carpeta del proyecto, para tenerlos más unificados.
+
+![](Imagen%2031.png)
+
+Movemos los archivos al directorio que acabamos de crear. Utilizaremos el comando mv seguido del archivo que queremos mover y la ruta de destino:
+
+![](Imagen%2032.png)
+
+Si entramos en nuestro localhost e indicamos la carpeta, vemos que los archivos aparecen listados:
+
+![](Imagen%2033.png)
+
+Ahora vamos a crear la variable de entorno para enlazar la aplicación desplegada en Tomcat con los recursos que tenemos en el directorio CDN.
+Seguimos la ruta **/var/lib/tomcat/conf** y editamos el archivo **context.xml.**
+
+![](Imagen%2034.png)
+
+Entramos en el editor y añadimos las líneas dentro del Context:
+
+![](Imagen%2035.png)
+
+Le indicamos el nombre del recurso que debe buscar y la dirección ip en la que encontrará los recursos.
+Guardamos los cambios y paramos los servidores y volvemos a arrancarlos para que la modificación que hemos realizado en el xml se ejecute.
+
+![](Imagen%2036.png)
+
+Abrimos el navegador y accedemos a la aplicación. Pulsamos el botón “CDN” y veremos todos los archivos desplegados en la página:
+
+![](Imagen%2037.png)
+![](Imagen%2038.png)
+
+
+
